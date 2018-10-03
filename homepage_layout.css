@@ -1,0 +1,97 @@
+/* Jennifer Luo
+ COEN60 Lab 2
+ 1142195
+ */
+
+ul li {
+  padding: 5px;
+}
+
+.row {
+ display: flex;
+}
+
+.column {
+ flex: 50%;
+}
+
+.intro:hover > *:hover {
+ background-color:yellow;
+}
+
+.hobbies p:hover {
+  background-color:yellow;
+}
+
+.hobbies li:hover {
+  background-color:yellow;
+}
+
+.others h6:hover {
+  background-color:yellow;
+}
+
+.others td:hover {
+  background-color:yellow;
+}
+
+.others p:hover {
+  background-color:yellow;
+}
+
+.others a:hover {
+  background-color:yellow;
+}
+
+.others li:hover {
+  background-color:yellow;
+}
+
+img:hover {
+  border: 5px solid yellow;
+}
+
+iframe:hover {
+  border: 5px solid yellow;
+}
+
+img {
+ float: right;
+}
+
+.intro {
+ border: 5px solid green;
+ background-color: white;
+}
+
+.hobbies {
+ border: 5px dotted blue;
+ background-color: #E8FBFB;
+ padding: 5px;
+ margin-top: 10px;
+}
+
+.video {
+ border: 5px inset coral;
+}
+
+.others {
+ border: 5px solid black;
+}
+
+.bkgd {
+ background-image: url("http://blog.visme.co/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-04.jpg");
+}
+
+#links {
+ text-align: left;
+ border: 5px solid coral;
+}
+
+#links p:hover {
+  background-color:yellow;
+}
+
+#links a:hover {
+  background-color:yellow;
+}
